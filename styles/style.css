@@ -21,6 +21,7 @@ body {
 header {
     background-color: #2D25A0;
     margin-bottom: 70px;
+    width: 100%;
 }
 
 .header-container {
@@ -38,6 +39,7 @@ header {
 
 .heading {
     width: 485px;
+
 }
 
 .heading h1 {
@@ -73,6 +75,7 @@ header {
     padding-top: 153px;
     padding-bottom: 86px;
     overflow: hidden;
+
 
 }
 
@@ -145,13 +148,6 @@ header {
     margin-bottom: 158px;
 }
 
-.thumbnail {
-    width: 567px;
-}
-
-.thumbnail img {
-    width: 100%;
-}
 
 .blog-heading {
     width: 469px;
@@ -193,6 +189,15 @@ header {
 
 
 }
+
+.thumbnail {
+    width: 567px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
 
 /* footer part */
 
@@ -238,4 +243,98 @@ footer {
     font-size: 18px;
     font-size: 400;
     line-height: 24px;
+}
+
+/* media query */
+
+@media screen and (max-width: 688px) {
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .heading {
+        width: 98%;
+        margin-bottom: 25px;
+    }
+
+    .banner {
+        width: 98%;
+        margin-top: 25px;
+        padding-top: 0;
+    }
+
+    .photo-albums-container {
+        width: 100%;
+    }
+
+    .photo-albums {
+        grid-template-columns: 1fr;
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .highlights-container {
+        flex-direction: column;
+        margin-bottom: 43px;
+    }
+
+    .blog {
+        width: 97%;
+    }
+
+    .blog-link {
+        margin-bottom: 29px;
+
+    }
+
+    .thumbnail {
+        width: 97%;
+    }
+
+}
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .heading {
+        width: 98%;
+        margin-bottom: 25px;
+    }
+
+    .banner {
+        width: 98%;
+        margin-top: 25px;
+        padding-top: 0;
+    }
+
+    .photo-albums-container {
+        width: 100%;
+    }
+
+    .photo-albums {
+        grid-template-columns: repeat(2, 1fr);
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .highlights-container {
+        flex-direction: column;
+        margin-bottom: 43px;
+    }
+
+    .blog {
+        width: 97%;
+    }
+
+    .blog-link {
+        margin-bottom: 29px;
+
+    }
+
+    .thumbnail {
+        width: 97%;
+    }
 }
