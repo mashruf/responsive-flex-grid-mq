@@ -254,12 +254,12 @@ footer {
     }
 
     .heading {
-        width: 98%;
+        width: 95%;
         margin-bottom: 25px;
     }
 
     .banner {
-        width: 98%;
+        width: 95%;
         margin-top: 25px;
         padding-top: 0;
     }
@@ -270,7 +270,7 @@ footer {
 
     .photo-albums {
         grid-template-columns: 1fr;
-        width: 98%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -280,7 +280,15 @@ footer {
     }
 
     .blog {
-        width: 98%;
+        width: 95%;
+    }
+
+    .blog-heading {
+        width: 100%;
+    }
+
+    .blog-details {
+        width: 100%;
     }
 
     .blog-link {
@@ -289,7 +297,7 @@ footer {
     }
 
     .thumbnail {
-        width: 98%;
+        width: 95%;
     }
 
     .footer-logo {
@@ -297,11 +305,11 @@ footer {
     }
 
     .social-links {
-        width: 98%;
+        width: 95%;
     }
 
     .copyright {
-        width: 98%;
+        width: 95%;
     }
 
 }
@@ -312,12 +320,12 @@ footer {
     }
 
     .heading {
-        width: 98%;
+        width: 95%;
         margin-bottom: 25px;
     }
 
     .banner {
-        width: 98%;
+        width: 95%;
         margin-top: 25px;
         padding-top: 0;
     }
@@ -328,7 +336,7 @@ footer {
 
     .photo-albums {
         grid-template-columns: repeat(2, 1fr);
-        width: 98%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -338,7 +346,15 @@ footer {
     }
 
     .blog {
-        width: 98%;
+        width: 95%;
+    }
+
+    .blog-heading {
+        width: 100%;
+    }
+
+    .blog-details {
+        width: 100%;
     }
 
     .blog-link {
@@ -347,7 +363,7 @@ footer {
     }
 
     .thumbnail {
-        width: 98%;
+        width: 95%;
     }
 
     .footer-logo {
@@ -355,10 +371,10 @@ footer {
     }
 
     .social-links {
-        width: 98%;
+        width: 95%;
     }
 
     .copyright {
-        width: 98%;
+        width: 95%;
     }
 }
