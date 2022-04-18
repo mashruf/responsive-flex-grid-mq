@@ -292,6 +292,14 @@ footer {
         width: 97%;
     }
 
+    .social-links {
+        width: 97%;
+    }
+
+    .copyright {
+        width: 97%;
+    }
+
 }
 
 @media screen and (min-width: 689px) and (max-width: 992px) {
@@ -335,6 +343,14 @@ footer {
     }
 
     .thumbnail {
+        width: 97%;
+    }
+
+    .social-links {
+        width: 97%;
+    }
+
+    .copyright {
         width: 97%;
     }
 }
