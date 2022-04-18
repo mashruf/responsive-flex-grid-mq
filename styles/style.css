@@ -21,7 +21,7 @@ body {
 header {
     background-color: #2D25A0;
     margin-bottom: 70px;
-    width: 100%;
+
 }
 
 .header-container {
@@ -292,6 +292,10 @@ footer {
         width: 98%;
     }
 
+    .footer-logo {
+        width: 95%;
+    }
+
     .social-links {
         width: 98%;
     }
@@ -344,6 +348,10 @@ footer {
 
     .thumbnail {
         width: 98%;
+    }
+
+    .footer-logo {
+        width: 95%;
     }
 
     .social-links {
