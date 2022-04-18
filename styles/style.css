@@ -20,11 +20,7 @@ body {
 
 header {
     background-color: #2D25A0;
-}
-
-.header-container:hover .banner img {
-    transform: scale(1.3);
-    transition: transform 3s ease-out;
+    margin-bottom: 70px;
 }
 
 .header-container {
@@ -32,6 +28,13 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.header-container:hover .banner img {
+    transform: scale(1.3);
+    transition: transform 3s ease-out;
+}
+
+
 
 .heading {
     width: 485px;
@@ -41,6 +44,7 @@ header {
     width: 100%;
     font-size: 4rem;
     line-height: 80px;
+    color: #FFFFFF;
 }
 
 .link {
@@ -67,7 +71,6 @@ header {
     width: 556px;
     padding-top: 153px;
     padding-bottom: 86px;
-    border: 1px solid red;
     overflow: hidden;
 
 }
@@ -75,4 +78,55 @@ header {
 .banner img {
     width: 100%;
 
+}
+
+
+/*------------------ 
+    main part 
+--------------------*/
+
+
+.photo-albums-container {
+    width: 1050px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.photo-albums {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    grid-auto-rows: minmax(330px, auto);
+}
+
+.photo-album {
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+
+}
+
+.photo-album img {
+    width: 100%;
+
+}
+
+.photo-album h2 {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+
+}
+
+.photo-album p {
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0;
 }
