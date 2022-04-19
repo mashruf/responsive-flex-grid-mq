@@ -12,6 +12,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
 
 /*-------------------- 
     heading part 
@@ -66,9 +70,7 @@ header {
 
 }
 
-.fa-arrow-right {
-    margin-left: 10px;
-}
+
 
 .banner {
     width: 556px;
